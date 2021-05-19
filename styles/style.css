@@ -1,0 +1,41 @@
+h1, h2 {
+    font-family: 'Henny Penny', cursive;
+}
+
+p, blockquote {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-image: url('../images/background.jpg');
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote {
+    font-weight: bold;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+}
+
+img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.story-container {
+    width: 70%;
+    padding: 40px;
+    background-color: #DDD8BB;
+    text-align: center;
+    border-radius: 6px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
